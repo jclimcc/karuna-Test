@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn-show {
+      @apply py-2 px-5 bg-sky-500 ml-2 text-white font-semibold rounded-md shadow-md hover:bg-sky-200 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    }
+    .btn-edit {
+        @apply py-2 px-5 bg-blue-700 ml-2 text-white font-semibold rounded-md shadow-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+      }
+      .btn-delete {
+        @apply py-2 px-5 bg-red-700 ml-2 text-white font-semibold rounded-md shadow-md hover:bg-red-500 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+      }
+
+  }
